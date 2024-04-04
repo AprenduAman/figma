@@ -1,0 +1,365 @@
+.rectangle-189 {
+  /* Rectangle 189 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1442px;
+  height: 60px;
+  left: -2px;
+  top: 0px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.heading1 {
+  /* The Right Plan for Your Business */
+
+  position: absolute;
+  width: 475px;
+  height: 38px;
+  left: 499px;
+  top: 132px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+  text-align: right;
+
+  color: #000000;
+}
+.disc {
+  /* We have several powerful plans to showcase your business and get discovered as a creative entrepreneurs. Everything you need. */
+
+  position: absolute;
+  width: 559px;
+  height: 52px;
+  left: 441px;
+  top: 187px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  text-align: center;
+
+  color: #000000;
+}
+.grp10 {
+  /* Group 10 */
+
+  position: absolute;
+  width: 248px;
+  height: 24px;
+  left: 595px;
+  top: 265px;
+}
+.monthly {
+  /* Bill Monthly */
+
+  position: absolute;
+  width: 85px;
+  height: 19px;
+  left: 0;
+  top: calc(268px - 280px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: right;
+
+  color: #181059;
+
+  opacity: 0.96;
+}
+.yearly {
+  /* Bill Annualy */
+
+  position: absolute;
+  width: 83px;
+  height: 19px;
+  left: calc(760px - 595px);
+  top: calc(268px - 280px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #181059;
+
+  opacity: 0.96;
+}
+.button-container {
+  position: absolute;
+  width: 56px;
+  height: 24px;
+  left: calc(692px - 595px);
+  top: calc(265px - 265px);
+}
+.button-container :hover {
+  .inner-circle {
+    background: transparent;
+  }
+  .outer-circle {
+    background: #ffffff;
+  }
+}
+
+/* Rectangle 2 */
+.button {
+  box-sizing: border-box;
+  position: absolute;
+  width: 56px;
+  height: 24px;
+  left: 0;
+  top: 0;
+  background: #27ae60;
+  border-radius: 62px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Ellipse 1 */
+.inner-circle {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 4px;
+  top: 4px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+/* Ellipse 2 */
+.outer-circle {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  left: 32px;
+  top: 0;
+  background: transparent;
+  border-radius: 50%;
+}
+.line{
+    /* Line 6 */
+
+position: absolute;
+
+left: 14px;
+top: 117px;
+z-index: 10;
+
+
+}
+.basic {
+  /* Group 5944 */
+
+  /* Rectangle 5 */
+
+  position: absolute;
+  width: 280px;
+  height: 517px;
+  left: 298px;
+  top: 331px;
+
+  background: #FFFFFF;
+  border-radius: 24px;
+
+  .text {
+    /* Basic */
+
+    position: absolute;
+    width: 60px;
+    height: 28px;
+    left: calc(330px - 298px);
+    top: calc(363px - 331px);
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #181059;
+  }
+  .frame10 {
+    /* Frame 10 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 4px;
+
+    position: absolute;
+    width: 96px;
+    height: 29px;
+    left: calc(330px - 298px);
+    top: calc(420px - 331px);
+
+    .price {
+      /* $77 */
+
+      /* width: 39px; */
+      height: 29px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 20px;
+
+      color: #181059;
+
+      opacity: 0.96;
+
+      /* Inside auto layout */
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    .per {
+      /* /month */
+
+      width: 53px;
+      height: 19px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      /* identical to box height */
+
+      color: #181059;
+
+      opacity: 0.68;
+
+      /* Inside auto layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+  }
+  .frame11 {
+    /* Frame 11 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 212px;
+    height: 264px;
+    left: calc(330px - 298px);
+    top: calc(480px - 331px);
+
+    background: #ffffff;
+    .item1 {
+      /* Group 24 */
+
+      width: 212px;
+      height: 44px;
+
+      /* Inside auto layout */
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    .grp2 {
+      /* Group 3 */
+
+      position: relative;
+      width: 16px;
+      height: 16px;
+      left: 0px;
+      top: 3px;
+      #entypo:check {
+        /* entypo:check */
+
+        position: relative;
+        width: 9.92px;
+        height: 8.32px;
+        left: 3.04px;
+        top: 4.84px;
+        svg {
+          /* Vector */
+
+          position: relative;
+          left: 2.96%;
+          right: 2.96%;
+          top: 1.92%;
+          bottom: 1.92%;
+
+          background: #27ae60;
+        }
+      }
+    }
+    .list {
+      /* Basic plan for smaller teams with upto 10 users */
+
+      position: relative;
+      width: 184px;
+      height: 44px;
+      left: 28px;
+      top: -30px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      /* or 22px */
+
+      color: #181059;
+    }
+  }
+  .selectbtn {
+    /* Rectangle 1 */
+
+    position: absolute;
+    width: 216px;
+    height: 48px;
+    left: 0px;
+    top: 285px;
+
+    background: rgba(39, 174, 96, 0.06);
+    border-radius: 4px;
+    .selecttext {
+      /* Start your 15 days trial */
+
+      position: absolute;
+      width: 168.23px;
+      height: 19px;
+      left: 17px;
+      top: -3px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      /* identical to box height */
+      text-align: center;
+
+      color: #27ae60;
+    }
+  }
+  
+}
