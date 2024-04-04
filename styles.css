@@ -108,14 +108,14 @@
   left: calc(692px - 595px);
   top: calc(265px - 265px);
 }
-.button-container :hover {
+/* .button-container :hover {
   .inner-circle {
     background: transparent;
   }
   .outer-circle {
     background: #ffffff;
   }
-}
+} */
 
 /* Rectangle 2 */
 .button {
